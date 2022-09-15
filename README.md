@@ -1,4 +1,4 @@
-# GUIA RELATÓRIOS - Consulta de Relatórios da DRI através da Plataforma de Integração
+# Consulta de Relatórios da DRI através da Plataforma de Integração
 Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma de Integração, o agente pode:
 
 - Listar o resultado do relatório desejado.
@@ -6,18 +6,10 @@ Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma
 
 ## O que fazer para consultar os relatórios da DRI disponibilizados pela Plataforma de Integração?
 
-## Antes de tudo o que é um evento contábil ?
-
-![Guia Relatorio - Evento Contabil](./img/EventoContabil.JPG)
-
-Um evento contábil é um código que representa a rodada do cálculo do motor da CCEE (Definição melhorada com o Lassi/Gedra). Ele é composto na sua primeira parte pelo Ano/Mês, números de 1 a 6, depois pelo processamento, números de 7 a 9, e depois pela sequência de processamento, números de 10 a 12, vide exemplo acima.
-
 ### Siga a seguinte ordem para a chamada de serviços:
 
 ![Guia Relatorio - Ordem Serviços](./img/OrdemGuiaRelatorio.JPG)
  
-Para extrair as informações dos relatórios da DRI disponibilizados através da Plataforma de Integração da CCEE, deve-se seguir esta ordem de chamada dos serviços, primeiro para identificar qual o evento contábil divulgado ao público tem-se interesse através do uso do primeiro serviço. Chamando o segundo serviço, deve-se encontrar o relatório desejado e os parâmetros de busca do mesmo. Por fim, ao chamar o terceiro serviço, ele retornará o resultado do relatório escolhido, quadro a quadro.
-
 --- 
  
 ### Liste os eventos contábeis divulgados pela CCEE
@@ -36,7 +28,7 @@ Os campos de entrada e saída do serviço podem ser consultados no [manual de ut
 
 ---
 
-### Liste os acrônimos disponibilizados pela CCEE
+### Liste os relatórios disponibilizados pela CCEE
 
 ![Guia Relatorio - passo 2](./img/Passo2GuiaRelatorio.JPG)
 
@@ -53,7 +45,7 @@ Os campos de entrada e saída do serviço podem ser consultados no [manual de ut
 
 ---
 
-### Liste os eventos contábeis divulgados pela CCEE
+### Liste os resultados dos relatórios divulgados pela CCEE
 
 ![Guia Relatorio - passo 3](./img/Passo3GuiaRelatorio.JPG)
 

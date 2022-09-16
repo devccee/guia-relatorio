@@ -18,7 +18,7 @@ Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma
 
 Utilize o serviço *ListarDivulgacaoEventoContabil* para consultar os eventos contábeis que foram disponibilizados pela CCEE através da Plataforma de Integração.
 
-[Clique aqui](https://documenter.getpostman.com/view/12351215/UzJJucpF#87f02261-4a72-47bf-b1c7-db79bb3bdcab) para ver exemplos de consulta utilizando a ferramenta Postman em seu navegador.
+[Clique aqui](https://documenter.getpostman.com/view/12351215/UzJJucpF#0d18e5ff-4680-4d4d-9b8b-1c194684a076) para ver exemplos de consulta utilizando a ferramenta Postman em seu navegador.
     
 Os campos de entrada e saída do serviço podem ser consultados no [manual de utilização](https://www.ccee.org.br/documents/80415/919484/ListarDivulgacaoEventoContabilV2.pdf/e7b35bc2-7b39-f543-0972-ab9af0db9621) desse serviço. 
 
